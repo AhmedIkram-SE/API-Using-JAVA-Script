@@ -30,8 +30,8 @@ function fetchData() {
             const tr=document.createElement("tr");
             const td=document.createElement("td");
             const td2=document.createElement("td");
-            td.classList.add("heading1");
-            td2.classList.add("heading2");
+            td.classList.add("data1");
+            td2.classList.add("data2");
             
 
             td.textContent=res.user;

@@ -7,24 +7,45 @@ body {
 }
 #table {
     width: 52%;
-    border: solid black;
     height: fit-content;
 }
 #mtable {
     width: 100%;
 }
+#mtable2 {
+    width: 100%;
+}
 .heading1 {
     width: 69%;
     border: solid black;
+    background-color: beige;
     text-align: start;
     padding-left: 10px;
+    border-width: 1px;
+    box-shadow: 0px 5px black;
 }
 .heading2 {
     width: 285px;
     border: solid black;
+    background-color: beige;
+    text-align: start;
+    padding-left: 10px;
+    border-width: 1px;
+    box-shadow: 0px 5px black;
+}
+.data1 {
+    width: 69%;
+    background-color: beige;
     text-align: start;
     padding-left: 10px;
 }
+.data2 {
+    width: 285px;
+    background-color: beige;
+    text-align: start;
+    padding-left: 10px;
+}
+
 #inputs {
     display: flex;
     flex-direction: column;
